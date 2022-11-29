@@ -1,0 +1,1 @@
+proc sayHello*(): void {.exportc.} = echo "Hello"
