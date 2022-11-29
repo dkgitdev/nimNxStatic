@@ -1,7 +1,7 @@
 nimNxStatic
 ===========
 
-    Example of how to integrate static library into nim
+    Example of how to integrate nim static library into existing c code for nintendo homebrew
 
 This is a sample sixaxis project from DEVKITPRO with one minor tweak:
 it says "hello" using static library coded in nim!
