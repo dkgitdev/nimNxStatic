@@ -28,3 +28,8 @@ switch_build -S toggle.nim
 ```
 
 The resulted file `nim/build/toggle/libtoggle.a` is a library file.
+
+Screenshot
+==========
+
+![HB_Running](https://user-images.githubusercontent.com/36101416/204620253-639a89f7-ecee-4560-aae3-70a5ee4427e5.jpg)
