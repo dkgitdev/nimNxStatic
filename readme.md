@@ -8,8 +8,7 @@ it says "hello" using static library coded in nim!
 
 The initial commit in this repo is the example project with no changes.
 
-The `8f9c251e3e2c15c1ce0e540cfae5f23265a8ef06` commit adds a static library file,
-built with switch_build.
+The last -- is the project with the sufficient config to build the library
 
 # Usage
 
