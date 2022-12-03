@@ -12,12 +12,6 @@ The last -- is the project with the sufficient config to build the library
 
 # Usage
 
-To build the app, run
-
-```shell
-make
-```
-
 To build the library *.a file, run:
 
 ```shell
@@ -28,7 +22,8 @@ switch_build -S toggle.nim
 
 The resulted file `nim/build/toggle/libtoggle.a` is a library file.
 
-Screenshot
-==========
+To build the app, run
 
-![HB_Running](https://user-images.githubusercontent.com/36101416/204620253-639a89f7-ecee-4560-aae3-70a5ee4427e5.jpg)
+```shell
+make
+```
