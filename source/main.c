@@ -4,7 +4,7 @@
 #include <switch.h>
 
 //See also libnx hid.h.
-extern void writeFile();
+extern void testFileWrite(char filename[], char content[]);
 //extern void sayHello();
 
 int main(int argc, char **argv)
@@ -21,7 +21,7 @@ int main(int argc, char **argv)
 
 //    printf("\x1b[1;1HPress PLUS to exit. Now, a hello from our Nim static library: ");
 //    sayHello();
-    writeFile();
+    testFileWrite("nim-test.json", "{\"we\": \"did it!\"}");
 
 //    printf("\x1b[2;1HSixAxis Sensor readings:");
 
