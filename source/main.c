@@ -4,7 +4,7 @@
 #include <switch.h>
 
 //See also libnx hid.h.
-extern void sayHello();
+extern void testFileWrite(char* filename, char* content);
 
 int main(int argc, char **argv)
 {
@@ -27,10 +27,10 @@ int main(int argc, char **argv)
     hidStartSixAxisSensor(handles[2]);
     hidStartSixAxisSensor(handles[3]);
 
-    printf("\x1b[1;1HPress PLUS to exit. Now, a hello from our Nim static library: ");
-    sayHello();
+//    printf("\x1b[1;1HPress PLUS to exit. Now, a hello from our Nim static library: ");
+    testFileWrite("file.json", "Some Content!!!");
 
-    printf("\x1b[2;1HSixAxis Sensor readings:");
+//    printf("\x1b[2;1HSixAxis Sensor readings:");
 
     // Main loop
     while(appletMainLoop())
