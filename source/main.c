@@ -4,7 +4,8 @@
 #include <switch.h>
 
 //See also libnx hid.h.
-extern void sayHello();
+extern void testDevice(char* filename, char* content);
+extern void NimMain();
 
 int main(int argc, char **argv)
 {
@@ -31,7 +32,7 @@ int main(int argc, char **argv)
     // hidStartSixAxisSensor(handles[3]);
 
     // printf("\x1b[1;1HPress PLUS to exit. Now, a hello from our Nim static library: ");
-    sayHello();
+    testDevice("test_file.txt", "test content");
 
     // printf("\x1b[2;1HSixAxis Sensor readings:");
 
